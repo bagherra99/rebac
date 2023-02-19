@@ -1,0 +1,47 @@
+.buttons{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.button{
+    /* font-weight: 500; */
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 9.5rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(41, 24, 194);
+    border-radius: 8px;
+}
+
+.button1{
+    background-color: white;
+    border: 1.5px solid white;
+    color: black;
+    transition: all ease 0.4s;
+}
+
+.button2{
+    transition: all ease 0.4s;
+}
+
+.button1:hover{
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+.button2:hover{
+    /* color: white; */
+    background-color: rgba(41, 24, 194, 0.9);
+    transform: scale(1.1);
+}
+
+
+
+
